@@ -1,0 +1,49 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"  
+     >
+    
+     <!-- Row 1 -->
+     <TableRow
+	     android:id="@+id/tableRow1"
+	     android:layout_width="match_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center" >
+	     <ImageButton  
+		    android:id="@+id/btn_dadouyou"
+		    android:src="@drawable/nav_dadouyou"
+		    style="@style/NavStyle"
+		    android:contentDescription="@string/app_name" >
+		</ImageButton>
+	    <ImageButton  
+		    android:id="@+id/btn_huashengyou"
+		    android:src="@drawable/nav_huashengyou"
+		    style="@style/NavStyle"
+		    android:contentDescription="@string/app_name" >
+		</ImageButton >
+	 </TableRow>   
+	 <!-- Row 1 End -->
+	 
+     <!-- Row 2 -->
+     <TableRow
+	     android:id="@+id/tableRow2"
+	     android:gravity="center" >
+	     <ImageButton
+		    android:id="@+id/btn_dadoupo"
+		    android:src="@drawable/nav_dadoupo"
+		    style="@style/NavStyle"
+		    android:contentDescription="@string/app_name" >
+		</ImageButton>
+	    <ImageButton
+		    android:id="@+id/btn_siliao"
+		    android:src="@drawable/nav_siliao"
+		    style="@style/NavStyle"
+		    android:contentDescription="@string/app_name" >
+		</ImageButton>
+	 </TableRow>   
+	 <!-- Row 2 End -->
+     
+     
+
+</TableLayout>
